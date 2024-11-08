@@ -1,0 +1,297 @@
+*{
+    margin: 0;padding: 0;
+    
+   
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: whitesmoke;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    margin: 0;padding: 0;
+    height: 8vh;
+    width: 100vw;
+    background: rgb(19,25,33);
+    display: flex;
+color: white;
+justify-content:;
+align-items: center;
+position: fixed;}
+.logo img{
+    width: 140px;
+    padding-top:9px ;
+    padding-left: 15px;
+}
+.adress{
+    margin: 0 20px;
+}
+.header .searchbox input{
+    margin: 0 8vw 0 3vw;
+    height: 5vh;
+    width: 40vw;
+
+}
+.header .searchbox input::placeholder{
+    padding-left: 10px;
+    border: none;
+    font-size: 15px;
+}
+.header .all{
+    height: 5.4vh;
+    width: 3vw;
+    background: rgb(230,230,230);
+    color: darkgray;
+    position: absolute;
+    left: 24vw;
+    border: none;
+    border-top-left-radius: 3px;border-bottom-left-radius: 3px;
+    display: grid;
+    place-items: center;
+}
+.header .searchicon{
+    height: 5.4vh;
+    width: 3vw;
+    background: rgb(254,189,104);
+    color: darkgray;
+    position: absolute;
+    left: 66vw;
+    border: none;
+    border-top-right-radius: 3px;border-bottom-right-radius: 3px;
+    display: grid;
+    place-items: center;
+}
+.header .searchicon i{
+    font-size: 26px;
+    color: black;
+}
+.header .id{
+    margin: 0 3vw 0 0;
+}
+.header .cart i{
+    margin: 0 0 0 3vw;
+    font-size: 40px;
+}
+.header2{
+    height: 5vh;
+    background: rgb(34,47,62);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 18vw;
+        
+    padding-top: 8vh;
+}
+.header2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background: url(WhatsApp\ Image\ 2024-11-07\ at\ 6.25.08\ PM.jpeg);
+    height: 65vh;
+    width: 100vw;
+    background-size: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 0 0;
+}
+.footer{
+    background: rgb(227,230,230);
+    height: 80vh;
+    width: 100vw;
+    margin: -55px 0 0 0 ;
+    backdrop-filter: blur(2px);
+    display: flex;
+
+}
+.footer .box{
+    height: 60vh;
+    width: 430px;
+    background: rgb(255,255,255);
+    margin: 0 20px;
+    margin-top: -20px;
+
+}
+.footer .box h2{
+    font-size: 20px;
+    margin: 15px 15px;
+}
+.footer .box1{
+    margin-left: 30px;
+
+    
+}
+.product {margin: -30px 20px ;
+
+}
+.product1
+{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.product1 img{
+    width: 170px;
+    height: 60px;
+
+}
+.discription {
+    margin:20px;
+    display: flex;
+    font-size: 16px;
+    margin: -30px 10px 0 40px;
+    font-weight: 100;
+}
+.discription h5{
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.footer .product3
+{
+  
+    width: 150pxpx;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-right:120px;
+    
+}
+.footer .product4
+{
+  
+    width: 150pxpx;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-right:120px;
+    
+}
+.footer .box2
+{
+ display: flex;
+ justify-content: space-between;
+ height: 60vh;
+ width: 430px;
+ background: rgb(255,255,255);
+ margin: 0 20px;
+ margin-top: -20px;
+ flex-direction: column;
+ position: relative;
+
+}
+.product3 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.footer .box2 h2{
+    font-size: 20px;
+    margin: 15px 0 0 15px;
+    width: 100%;
+}
+.product4 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top: 55px;
+    left: 240px;
+}
+.footer .products
+{
+    display: flex;
+   
+}
+.box2 .induction{
+    position: absolute;
+    top: 191px;
+    left: 30px;
+    font-size: 16px;
+}
+.box2 .machine{
+    position: absolute;
+    top: 191px;
+    left: 240px;
+    font-size: 16px;
+}
+.footer .product3
+{
+  
+    width: 150pxpx;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-right:120px;
+    
+}
+.footer .product4
+{
+  
+    align-items: center;
+    justify-content: center;
+    padding-right:120px;
+    
+}
+.footer .box3
+{
+ display: flex;
+ justify-content: space-between;
+ height: 60vh;
+ width: 430px;
+ background: rgb(255,255,255);
+ margin: 0 20px;
+ margin-top: -20px;
+ flex-direction: column;
+ position: relative;
+
+}
+.product5 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+}
+.footer .box3 h2{
+    font-size: 20px;
+    margin: 15px 0 0 15px;
+    width: 100%;
+}
+.product6 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 240px;
+}
+.footer .productc
+{
+    display: flex;
+   
+}
+.box3 .plate{
+    position: absolute;
+    top: 191px;
+    left: 30px;
+    font-size: 16px;
+}
+.box3 .bird{
+    position: absolute;
+    top: 191px;
+    left: 225px;
+    font-size: 16px;
+}
