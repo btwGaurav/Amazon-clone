@@ -22,7 +22,7 @@ resources then you can just visit amazon.in and downlaod or save or copy link di
 
 {/////}Contribution guidelines.
 1.Just try to add details and improve responsiveness.
-2.you can change font and sizing of the different sectons according to webaite.
+2.you can change font and sizing of the different sectons according to website. 
 
 
 {/////}Links to additional resources or documentation.
