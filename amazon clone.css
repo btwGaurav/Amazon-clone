@@ -5,7 +5,7 @@
 }
 body{
     height: 100vh;
-    width: 100vw;
+
     background: whitesmoke;
     border: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,12 +14,13 @@ body{
 {
     display: flex;
     height: 100%;
-    width: 100%;
+    
 }
 .header{
     margin: 0;padding: 0;
     height: 8vh;
-    width: 100vw;
+    width: 99.9%;
+    
     background: rgb(19,25,33);
     display: flex;
 color: white;
@@ -38,7 +39,6 @@ position: fixed;}
     margin: 0 8vw 0 3vw;
     height: 5vh;
     width: 40vw;
-
 }
 .header .searchbox input::placeholder{
     padding-left: 10px;
@@ -95,11 +95,10 @@ position: fixed;}
     text-decoration: none;
     color: white;
 }
-
 .main {
     background: url(WhatsApp\ Image\ 2024-11-07\ at\ 6.25.08\ PM.jpeg);
     height: 65vh;
-    width: 100vw;
+   
     background-size: 100%;
     overflow: hidden;
     box-shadow: 0 0 0 0;
@@ -107,11 +106,10 @@ position: fixed;}
 .footer{
     background: rgb(227,230,230);
     height: 80vh;
-    width: 100vw;
+  
     margin: -55px 0 0 0 ;
     backdrop-filter: blur(2px);
     display: flex;
-
 }
 .footer .box{
     height: 60vh;
@@ -119,7 +117,6 @@ position: fixed;}
     background: rgb(255,255,255);
     margin: 0 20px;
     margin-top: -20px;
-
 }
 .footer .box h2{
     font-size: 20px;
@@ -127,11 +124,9 @@ position: fixed;}
 }
 .footer .box1{
     margin-left: 30px;
-
     
 }
 .product {margin: -30px 20px ;
-
 }
 .product1
 {
@@ -145,7 +140,6 @@ position: fixed;}
 .product1 img{
     width: 170px;
     height: 60px;
-
 }
 .discription {
     margin:20px;
@@ -158,7 +152,6 @@ position: fixed;}
     font-size: 16px;
     margin-left: 40px;
 }
-
 .footer .product3
 {
   
@@ -190,7 +183,6 @@ position: fixed;}
  margin-top: -20px;
  flex-direction: column;
  position: relative;
-
 }
 .product3 img{
     width: 140px;
@@ -257,7 +249,6 @@ position: fixed;}
  margin-top: -20px;
  flex-direction: column;
  position: relative;
-
 }
 .product5 img{
     width: 140px;
